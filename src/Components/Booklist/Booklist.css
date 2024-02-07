@@ -1,0 +1,12 @@
+.shadow {
+    -webkit-box-shadow: 10px 17px 45px -6px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 17px 45px -6px rgba(0,0,0,0.45);
+box-shadow: 10px 17px 45px -6px rgba(0,0,0,0.45);
+}
+
+
+@media screen and (min-device-width: 913px) and (max-device-width: 1024px) { 
+    .book-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
